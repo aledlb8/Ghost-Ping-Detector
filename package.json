@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "canvacord": "^5.2.3",
+    "chalk": "^5.0.0",
+    "discord-xp": "^1.1.16",
+    "discord.js": "13.3.0",
+    "figlet": "^1.5.2",
+    "glob": "^7.2.0",
+    "quick.db": "^7.1.3"
+  }
+}
