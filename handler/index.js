@@ -9,7 +9,7 @@ const config = require('../config.json')
 const client = require("../index.js")
 
 module.exports = async (client) => {
-  const commandFiles = await globPromise(`${process.cwd()}/commands/**/*.js`);
+  const commandFiles = await globPromise(`${process.cwd()}/Commands/**/*.js`);
   commandFiles.map((value) => {
     const file = require(value);
     const splitted = value.split("/");
