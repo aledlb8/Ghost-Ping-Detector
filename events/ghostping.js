@@ -13,7 +13,7 @@ client.on('messageDelete', async (message) => {
             const embed = new MessageEmbed()
             .setTitle('Ghostping')
             .setDescription(`${message.author.username} has deleted his message & he ghost pinged ${message.content}`)
-            .setColor('RED')
+            .setColor(color)
             message.guild.channels.cache.get(channel).send({ embeds: [embed] });
         } else {
             return;
